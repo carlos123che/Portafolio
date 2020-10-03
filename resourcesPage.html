@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="resourcesStyle.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="column active">
+            <div class="content">
+                <h1>1</h1>
+                <div class="box">
+                    <h2>Code</h2>
+                    <p> 
+                        This section contains code from different tutorials, projects, webpages, forums that I have used in my projects. The code is from several programming languages and libraries and special functions. 
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg1"></div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <h1>2</h1>
+                <div class="box">
+                    <h2>Books Summary</h2>
+                    <p> 
+                        In this section, you can find different summaries for several books I have read. The summaries are from several topics, and for some of them, there is a problem resolution for the book exercises that I resolved.
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg2"></div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <h1>3</h1>
+                <div class="box">
+                    <h2>Conferences</h2>
+                    <p> 
+                        This section contains all the links, records, and resumes of different Conferences that I have assisted. Here you can find photos, videos, resumes, code, etc. The Conferences are from different websites and universities. 
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg3"></div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <h1>4</h1>
+                <div class="box">
+                    <h2>Recorded Lessons</h2>
+                    <p> 
+                        In this section, I have the link to different records of my classes. There are several topics and areas also there are some summaries about them. The records are from Universidad de San Carlos classes.
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg4"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).on('mouseover', '.container .column', function(){
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    </script>
+</body>
+</html>
